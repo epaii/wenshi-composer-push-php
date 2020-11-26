@@ -9,14 +9,22 @@ class ComposerStaticInitb80fcb673f43f66c59b1ce00822ddb11
     public static $prefixLengthsPsr4 = array (
         'w' => 
         array (
-            'wenshi\\push\\notice\\' => 19,
+            'wenshi\\push\\' => 12,
+        ),
+        'e' => 
+        array (
+            'epii\\http\\' => 10,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'wenshi\\push\\notice\\' => 
+        'wenshi\\push\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'epii\\http\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/epii/http/src',
         ),
     );
 

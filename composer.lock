@@ -4,16 +4,58 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "741ed06cbb4198789267ab20ae355506",
-    "packages": [],
+    "content-hash": "0b92afa3d9ef5f7241f567e5d5a2b598",
+    "packages": [
+        {
+            "name": "epii/http",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/epaii/epii-php-http.git",
+                "reference": "faa2d8f9bb8c8de8cf513e8d2d2934bee43f4857"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/epaii/epii-php-http/zipball/faa2d8f9bb8c8de8cf513e8d2d2934bee43f4857",
+                "reference": "faa2d8f9bb8c8de8cf513e8d2d2934bee43f4857",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "epii\\http\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "MrRen Epii",
+                    "email": "543169072@qq.com"
+                }
+            ],
+            "description": "http简单工具",
+            "time": "2019-07-16T02:00:07+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {
-        "php": ">=7.0"
-    },
-    "platform-dev": []
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }

@@ -10,11 +10,11 @@
   ],
   "license": "MIT",
   "require": {
-    "php": ">=7.0"
+    "epii/http": ">=0.0.1"
   },
   "autoload": {
     "psr-4": {
-      "wenshi\\push\\notice\\": "src/"
+      "wenshi\\push\\": "src/"
     }
   }
 }

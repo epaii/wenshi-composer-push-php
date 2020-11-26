@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'wenshi\\push\\notice\\' => array($baseDir . '/src'),
+    'wenshi\\push\\' => array($baseDir . '/src'),
+    'epii\\http\\' => array($vendorDir . '/epii/http/src'),
 );
