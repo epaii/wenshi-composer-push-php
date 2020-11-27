@@ -14,8 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "wenshi\\push\\": "src/",
-      "app\\":"app/"
+      "wenshi\\push\\": "src/"
     }
   }
 }
