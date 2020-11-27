@@ -19,11 +19,11 @@ class PushData
     }
     public static function url($url)
     {
-        return ["cmd"=>"url","name"=>$url];
+        return ["cmd"=>"url","url"=>$url];
     }
     public static function dialog($name)
     {
-        return ["cmd"=>"dialog","name"=>$name];
+        return ["cmd"=>"dialog","url"=>$name];
     }
     public static function merge(...$args){
        return  array_merge(...$args);

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0b92afa3d9ef5f7241f567e5d5a2b598",
+    "content-hash": "a05c9d0edb480ea0473173561ffdf859",
     "packages": [
         {
             "name": "epii/http",
