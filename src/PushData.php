@@ -25,6 +25,9 @@ class PushData
     {
         return ["cmd"=>"dialog","url"=>$name];
     }
+    public static function cmd($name,$args=[]){
+        return ["cmd"=>$name,"args"=>$args];
+    }
     public static function merge(...$args){
        return  array_merge(...$args);
     }
