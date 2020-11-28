@@ -17,9 +17,9 @@ class PushData
         return ["cmd"=>"function","name"=>$name,"args"=>$args];
 
     }
-    public static function url($url)
+    public static function url($url,$type="open")
     {
-        return ["cmd"=>"url","url"=>$url];
+        return ["cmd"=>"url","url"=>$url,"type"=>$type];
     }
     public static function dialog($name)
     {
