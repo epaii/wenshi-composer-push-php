@@ -31,4 +31,7 @@ class PushData
     public static function merge(...$args){
        return  array_merge(...$args);
     }
+    public static   function expire_time($expire_time){
+        return ["expire_time"=>$expire_time];
+    }
 }
