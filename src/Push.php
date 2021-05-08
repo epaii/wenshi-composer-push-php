@@ -25,9 +25,9 @@ class Push
      *@param  uid 用户ID
      *@param  cid
      **/
-    public static function bind($uid, $cid)
+    public static function bind($uid, $cid,$unbind_history=false)
     {
-        return self::doPush(['uid' => $uid, 'cid' => $cid], 'push@bind');
+        return self::doPush(['uid' => $uid, 'cid' => $cid,"unbind_history"=>$unbind_history?1:0], 'push@bind');
     }
 
     /*
@@ -35,9 +35,9 @@ class Push
      *@param   uid 用户ID
      * @param  cid
      * */
-    public static function unbind($uid, $cid)
+    public static function unbind($uid, $cid=null)
     {
-        return self::doPush(['uid' => $uid, 'cid' => $cid], 'push@unbind');
+        return self::doPush(['uid' => $uid, 'cid' => $cid?$cid:0], 'push@unbind');
     }
 
     /*
