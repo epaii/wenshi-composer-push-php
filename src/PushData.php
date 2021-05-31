@@ -34,4 +34,7 @@ class PushData
     public static   function expire_time($expire_time){
         return ["expire_time"=>$expire_time];
     }
+    public static   function send_time($send_time){
+        return ["send_time"=>$send_time];
+    }
 }

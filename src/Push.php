@@ -64,11 +64,16 @@ class Push
             $data["notice_config"] = [];
         }
         $data["notice_config"] = array_merge(["title" => $title, "content" => $content],$data["notice_config"]);
+        $send_time = isset($data["send_time"])?$data["send_time"]:0;
+        if($send_time ){
+            unset($data["send_time"]);
+        }
         $data = [
             'uids' => $ids,
             'title' => $title,
             'content' => $content,
             'is_cid' => $is_cid,
+            'send_time'=>$send_time,
             'data' => json_encode($data),
         ];
         return self::doPush($data, 'push@push');
